@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+
+.navbar{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1rem;
+    background-color: rgb(231, 235, 35);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin: 0;
+}
+.navbar-brand{
+    color: blue;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link{
+    color: blue;
+}
+.nav-link dropdown{
+    color: blue;
+}
+.dropdown-menu{
+    background-color: rgb(243, 168, 27);
+}
+
+
+
+
+
