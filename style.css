@@ -11,19 +11,21 @@
 
 .navbar{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 1rem;
+    padding: 0;
     background-color: rgb(231, 235, 35);
     width: 100%;
     position: fixed;
     z-index: 100;
     margin: 0;
 }
-.navbar-brand{
+.navbar-brand {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: blue;
 }
 .navbar-collapse {
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
 }
 .nav-link{
     color: blue;
@@ -33,6 +35,35 @@
 }
 .dropdown-menu{
     background-color: rgb(243, 168, 27);
+}
+.button-link{
+    background-color: orange;
+    color: blue;
+}
+.container-fluid{
+    padding: 30px;
+    text-align: end;
+    
+    display: flex;
+}
+.container-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    justify-content: center;
+    align-content: baseline;
+    background-color: rgb(243, 243, 124);
+    
+}
+.container-form h2{
+    color:blue;
+    text-align: center;
+    display: ruby-text-container;
+    height: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 
 
