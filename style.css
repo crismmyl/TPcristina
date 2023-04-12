@@ -46,6 +46,7 @@
     
     display: flex;
 }
+/*Estilos del formulario*/
 .container-form{
     display: flex;
     flex-direction: column;
@@ -55,6 +56,9 @@
     justify-content: center;
     align-content: baseline;
     background-color: rgb(243, 243, 124);
+    border-radius: 4%;
+    box-shadow: rgb(129, 38, 4) 2px 3px;
+    
     
 }
 .container-form h2{
@@ -63,8 +67,28 @@
     display: ruby-text-container;
     height: 150px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container-form form div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    background-color: orange;
+}
+.container-form form div input{
+    text-transform: initial;
+    width: 80%;
     
 }
+.container-form form button{
+    
+    color:blue;
+    background-color: orange;
+    text-transform: uppercase;
+    margin-left:500px;
+}
+
+
 
 
 
