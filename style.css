@@ -1,3 +1,6 @@
+@import url('https://fonts.google.com/');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +8,20 @@
    
 }
 
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/* uní estilo de fuente*/
+   
+    background:linear-gradient(90deg, blue,white );/*cambie el degradado*/
+}
 
+.principal {
+    margin-top: 30px;
+}
 
-
-
+.navbar{
+    background-color:#f4f007;
+}
+/*inicio de prueba*/
 .navbar{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 0;
@@ -23,31 +36,22 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: blue;
 }
-.navbar-collapse {
-    align-items: center;
-    justify-content: right;
-}
-.nav-link{
-    color: blue;
-}
-.nav-link dropdown{
-    color: blue;
+/*Agregué formulario al contacto con retorno*/
+.form a{
+   display: flex;
+   justify-content: center;
+   background-color: #2b4c7e;
+   align-content: center; 
+   color: aliceblue;
+   text-decoration: none;
+   border-radius: 1rem;
 }
 .dropdown-menu{
-    background-color: rgb(243, 168, 27);
+    background-color:rgb(248, 196, 99) ;
 }
-.button-link{
-    background-color: orange;
-    color: blue;
-}
-.container-fluid{
-    padding: 30px;
-    text-align: end;
-    
-    display: flex;
-}
+/*inicio de prueba*/
 /*Estilos del formulario*/
-.container-form{
+/*.container-form{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -61,36 +65,139 @@
     
     
 }
-.container-form h2{
+*/
+/*.container-form h2{
     color:blue;
     text-align: center;
     display: ruby-text-container;
     height: 150px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.container-form form div{
+*/
+/*.container-form form div{
     display: flex;
     justify-content: center;
     align-content: center;
     margin: 20px;
     background-color: orange;
 }
-.container-form form div input{
+*/
+/*.container-form form div input{
     text-transform: initial;
     width: 80%;
     
 }
-.container-form form button{
+*/
+/*.container-form form button{
     
     color:blue;
     background-color: orange;
     text-transform: uppercase;
     margin-left:500px;
 }
+ */  
 
 
+/*inicio de final*/
+#carouselExample{
+    background-color: beige;
+}
 
+.text-center{
+    color: rgb(247, 90, 33);
+}
 
+#cat {
+    color:blue;
+    text-align : center;
+}
 
+#frase{
+    color:blue;
+    text-align: center;
+}
+    
 
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(247, 166, 75);
+    
+}
 
+footer {
+    background-color:#f4f007;
+    padding: 5px ;
+    
+}
+
+li:hover {
+    background-color: rgb(224, 200, 141);
+}
+
+.titulo{
+    
+    background:linear-gradient(360deg, #2b4c7e,#0c0c54 );
+    
+}
+/*estilo para el formulario*/
+.form{
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: 5% auto auto auto;
+    
+}
+ 
+.estilo{
+font-family: 'Montserrat', sans-serif;
+min-width: 100vh;
+width: 100%;
+display: flex;
+}
+.input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding:0.8 1em ;
+    border: none;
+    outline: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+#enviar {
+    font-family: inherit;
+    border-radius: 1rem;
+    background-color:rgb(39, 171, 227) ;
+    height: 2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.contenido{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5;
+}
+.input--mensaje{
+    resize: none;
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    height: 10rem;
+}
+/*raptor class*/
+.container{
+    width: 50%;
+    border: 2px solid black;
+}
+
+div h2 ,p{
+ color: #a14016;
+}
