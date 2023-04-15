@@ -125,6 +125,22 @@ body {
     background-color: rgb(247, 166, 75);
     
 }
+.parrafo{
+    background-image: url(./fondo1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    object-fit: cover;
+
+}
+.principal section.parrafo h3{
+    color: red;
+    
+}
+.p{
+
+}
 
 footer {
     background-color:#f4f007;
