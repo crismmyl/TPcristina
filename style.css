@@ -126,7 +126,7 @@ body {
     
 }
 .parrafo{
-    background-image: url(./fondo1.jpg);
+    background-image: url(./Img/fondo1.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,13 +134,7 @@ body {
     object-fit: cover;
 
 }
-.principal section.parrafo h3{
-    color: red;
-    
-}
-.p{
 
-}
 
 footer {
     background-color:#f4f007;
@@ -216,4 +210,21 @@ display: flex;
 
 div h2 ,p{
  color: #a14016;
+}
+/*agregué carpeta futbol 11*/
+.logo{
+    margin: 10px;
+    padding: 10px;
+    justify-content:center;
+    text-align: center;
+}
+.card-referencia{
+    color: #0c0c54;
+    margin-top: 4%;
+    text-transform: uppercase;
+}
+.button-link{
+    color: #0c0c54;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
