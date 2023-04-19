@@ -159,11 +159,35 @@ div h2 ,p{
     justify-content:center;
     text-align: center;
 }
-.card-referencia{
-    color: #0c0c54;
-    margin-top: 4%;
-    text-transform: uppercase;
+.logo h5{
+    font-family: "DynaPuff", cursive ;
 }
+.categorias{
+    display: flex;
+    justify-content: center;
+}
+.imagen{
+    width: 350px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+.categorias h3{
+    display: flex;
+    justify-content: center;
+    padding-right: 180px;
+    padding-bottom: 10px;
+}
+.detalles{
+    align-self: center;
+    font-family: "DynaPuff", cursive;
+    
+}
+.detalles p{
+    color: black;
+    padding-left: 10%;
+    padding-right: 30%;
+}
+
 .button-link{
     color: #0c0c54;
     text-transform: uppercase;
