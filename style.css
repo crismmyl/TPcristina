@@ -1,5 +1,6 @@
-@import url('https://fonts.google.com/');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=DynaPuff:wght@400;700&family=Paytone+One&family=Rock+Salt&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 * {
     margin: 0;
@@ -9,10 +10,14 @@
 }
 
 body {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/* uní estilo de fuente*/
+    font-family:serif,  monospace,  sans-serif;
+    background-image: url(./Img/estadio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
    
-    background:linear-gradient(90deg, blue,white );/*cambie el degradado*/
+    /*background:linear-gradient(90deg, blue,white );*/ 
 }
+
 
 .principal {
     margin-top: 30px;
@@ -23,7 +28,7 @@ body {
 }
 /*inicio de prueba*/
 .navbar{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-family: "DynaPuff", cursive;
     padding: 0;
     background-color: rgb(231, 235, 35);
     width: 100%;
@@ -33,7 +38,7 @@ body {
 }
 .navbar-brand {
     font-size: xx-large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:"DynaPuff", cursive;
     color: blue;
 }
 /*Agregué formulario de contacto con retorno*/
@@ -59,46 +64,22 @@ body {
 
 .text-center{
     color: rgb(247, 90, 33);
+    font-family:"DynaPuff", cursive ;
 }
 
 #cat {
-    color:blue;
+    color:#a14016;
     text-align : center;
+    font-family: "DynaPuff", cursive ;
 }
 
 #frase{
-    color:blue;
+    color: black;
     text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-size: x-large;
 }
     
-
-.card-title{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: rgb(247, 166, 75);
-    
-}
-.wrap{
-    width: 100%;
-    max-height: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image:url(./Img/football.jpg);
-    background-position: center;
-}
-.wrap-texto{
-    color: blue;
-    text-align: center;
-    width: 50%;
-}
-.wrap-texto p{
-    color: #0c0c54;
-    
-}
-
-
 
 footer {
     background-color:#f4f007;
@@ -110,11 +91,7 @@ li:hover {
     background-color: rgb(224, 200, 141);
 }
 
-.titulo{
-    
-    background:linear-gradient(360deg, #2b4c7e,#0c0c54 );
-    
-}
+
 /*estilo para el formulario*/
 .form{
     background-color: white;
@@ -175,7 +152,7 @@ display: flex;
 div h2 ,p{
  color: #a14016;
 }
-/*agregué carpeta futbol 11*/
+/*Estilo carpeta futbol 11*/
 .logo{
     margin: 10px;
     padding: 10px;
@@ -191,4 +168,34 @@ div h2 ,p{
     color: #0c0c54;
     text-transform: uppercase;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}/*Estilo carpeta futbol 11*/
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+section img{
+    display: flex;
+    display: inline-block;
+    width: 50%;
+}
+section p{
+    padding: 15px;
+    margin: 15px;
+    width: 30%;
+    font-size: 19px;
+    font-family: "Roboto Slab",serif;
+    color: black;
+}
+.card-text{
+    font-family:"Roboto Slab",serif;
+}
+.card-title{
+    font-family:"DynaPuff", cursive ;  
+}
+#foot{
+    font-family: "Roboto Slab",serif;
+    font-size: 14px;
 }
